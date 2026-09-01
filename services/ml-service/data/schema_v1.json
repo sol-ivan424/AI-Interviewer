@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "topic_weakness": {
+    "features": ["answer_text", "missing_points", "score", "max_score"],
+    "target": "target_topic"
+  },
+  "candidate_level": {
+    "features": [
+      "average_score",
+      "backend_score",
+      "ml_score",
+      "llm_score",
+      "answers_count",
+      "correct_answers_count",
+      "partial_answers_count",
+      "wrong_answers_count",
+      "weak_skills_count",
+      "average_answer_length"
+    ],
+    "target": "target_level"
+  }
+}
